@@ -1,6 +1,7 @@
 # 📚 Books to Scrape – Automated Data Pipeline & Interactive Dashboard
 
 Deployed link: https://books-scraper-project.onrender.com 
+
 Note: Periods of inactivity will result in slower loading for about 1 min
 
 This project automates the entire process of scraping book listings from [Books to Scrape](http://books.toscrape.com/), cleaning the data, and visualizing it through an interactive dashboard powered by Streamlit and Plotly.
@@ -35,7 +36,7 @@ From data extraction to insight—all with a single script.
 | **pandas**     | Data cleaning & processing                |
 | **Streamlit**  | Interactive dashboard frontend            |
 | **Plotly**     | Beautiful, interactive data visualizations|
-| **Render**     | (Optional) Deployment platform            |
+| **Render**     | Deployment platform                       |
 
 ---
 
