@@ -15,14 +15,13 @@ From data extraction to insight—all with a single script.
 - 🧼 **Cleans & transforms data**:
   - Converts prices to floats
   - Converts ratings to numbers
-  - Converts availability to integers
   - Fills missing descriptions/categories with placeholders
 - 🔄 **Automated Pipeline**: `run_all.py` triggers the Scrapy spider and cleans the data for use in the dashboard.
 - 📊 **Interactive Streamlit Dashboard** with:
   - Price distribution by category (area chart)
-  - Availability vs. price scatterplot
-  - Ratings histogram
-  - Book count by category (bar + pie charts)
+  - Number of books by category
+  - Ratings by category
+  - Price of books by availability
   - Category selector for custom filtering
 
 ---
