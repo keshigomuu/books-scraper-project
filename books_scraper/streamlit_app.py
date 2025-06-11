@@ -4,11 +4,11 @@ import streamlit as st
 import subprocess
 import os
 
-@st.cache_data(show_spinner=False)
-def run_scraper():
-    subprocess.run(["scrapy", "crawl", "books", "-o", "cleaned_books.json"])
+# @st.cache_data(show_spinner=False)
+# def run_scraper():
+#     subprocess.run(["scrapy", "crawl", "books", "-o", "cleaned_books.json"])
 
-run_scraper()
+# run_scraper()
 
 
 df = pd.read_json("cleaned_books.json")
