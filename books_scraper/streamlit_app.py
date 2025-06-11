@@ -1,8 +1,16 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import subprocess
+import os
 
-# Load data
+@st.cache_data(show_spinner=False)
+def run_scraper():
+    subprocess.run(["scrapy", "crawl", "books", "-o", "cleaned_books.json"])
+
+run_scraper()
+
+
 df = pd.read_json("cleaned_books.json")
 
 # Sidebar filter
